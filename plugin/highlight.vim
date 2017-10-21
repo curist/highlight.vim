@@ -23,7 +23,7 @@ endfunction
 
 " map <cr> to do Highlighting only in modifiable buffers
 autocmd BufEnter * if &modifiable == 1 && mapcheck("<cr>") == ""|
-      \ nn <buffer> <silent> <expr> <CR> s:highlighting()|
-      \ xn <buffer> <silent> <expr> <CR> '"cy:call s:highlighting_selected()<cr>:set hls<cr>'|
+      \ nn <buffer> <silent> <expr> <CR> <SID>highlighting()|
+      \ xn <buffer> <silent> <expr> <CR> '"cy:call <SID>highlighting_selected()<cr>:set hls<cr>'|
       \ endif
 

@@ -1,6 +1,6 @@
 # Demo
 
-![gif](https://i.imgur.com/WUomf1V.gif)
+![gif](https://i.imgur.com/ibf2EKP.gif)
 
 # Usage
 
